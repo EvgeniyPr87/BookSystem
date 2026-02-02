@@ -1,0 +1,11 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+packages/
+*.exe
+*.dll
+*.mdf
+*.ldf
+EOF
