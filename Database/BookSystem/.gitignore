@@ -1,0 +1,19 @@
+.vs
+# Бинарные файлы
+*.mdf
+*.ldf
+*.bak
+*.trn
+*.log
+
+# Изображения
+Covers/
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Временные файлы
+*.tmp
+*.temp
+*.swp
