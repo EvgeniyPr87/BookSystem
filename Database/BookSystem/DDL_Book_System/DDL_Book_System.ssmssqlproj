@@ -22,8 +22,8 @@
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="SQLQuery0-CREATE Database BookSystem.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-5H1KDVCM\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-5H1KDVCM\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery0-CREATE Database BookSystem.sql</FullPath>
         </FileNode>
@@ -45,6 +45,12 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery1-CREATE Table Books.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQuery1-CREATE TABLE CopiesOfBooks.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-5H1KDVCM\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-5H1KDVCM\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1-CREATE TABLE CopiesOfBooks.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQuery1-CREATE TABLE Genres.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-5H1KDVCM\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>LAPTOP-5H1KDVCM\SQLEXPRESS</AssociatedConnSrvName>
@@ -57,11 +63,35 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery1-CREATE TABLE PublishingHouses.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery2-CREATE INDEX.sql">
+        <FileNode Name="SQLQuery2-CREATE INDEX. for books.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-5H1KDVCM\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>LAPTOP-5H1KDVCM\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery2-CREATE INDEX.sql</FullPath>
+          <FullPath>SQLQuery2-CREATE INDEX. for books.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery3 -CREATE TABLE Distributions .sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-5H1KDVCM\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-5H1KDVCM\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery3 -CREATE TABLE Distributions .sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery3-CREATE TABLE ConditionBooks.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-5H1KDVCM\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-5H1KDVCM\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery3-CREATE TABLE ConditionBooks.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery3-CREATE TABLE Readers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-5H1KDVCM\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-5H1KDVCM\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery3-CREATE TABLE Readers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery4-CREATE TABLE Employees.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-5H1KDVCM\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-5H1KDVCM\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery4-CREATE TABLE Employees.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

@@ -16,7 +16,7 @@ number_read_card	AS
 	RIGHT('0000' + CAST(reader_id AS NVARCHAR(10)),4)
 	) PERSISTED UNIQUE,
 birth_date			DATE					NULL,
-reader_phone		NVARCHAR(20)			NULL
+reader_phone		NVARCHAR(12)			NULL
 	CHECK (reader_phone IS NULL OR 
 	(reader_phone LIKE '+7%'AND LEN(reader_phone)=12) OR 
 	(reader_phone LIKE '8%' AND LEN(reader_phone)=11)),

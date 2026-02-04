@@ -23,6 +23,8 @@ total_penalty		AS
 			THEN DATEDIFF(DAY,DATEADD(DAY, number_days, distribution_date),fact_return_date )*penalty_of_day
 			ELSE 0
 	END,
+emploee_id		INT							NOT NULL,
 
-	--добавить связи
+FOREIGN KEY (emploee_id) REFERENCES Employees(employee_id) 
+
 );

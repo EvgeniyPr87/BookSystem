@@ -18,5 +18,4 @@ employee_email				NVARCHAR(50)				NULL
 	CHECK (employee_email IS NULL or employee_email LIKE '%@%.%'),
 position					NVARCHAR(50)				NOT NULL,
 is_active					BIT							DEFAULT 1,
-
 );
